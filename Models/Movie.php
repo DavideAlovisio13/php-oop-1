@@ -1,6 +1,6 @@
 <?php
-include __DIR__ ."/Category.php";
-class Movie {
+include __DIR__ ."/Product.php";
+class Movie extends Product { 
     public string $title;
     public string $language;
 
